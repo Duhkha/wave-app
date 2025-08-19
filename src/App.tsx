@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Dashboard from './pages/Dashboard'
 import Settings from './pages/Settings'
+import ConflictTesting from './pages/ConflictTesting'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/settings" element={<Settings />} />
+                <Route path="/conflict-testing" element={<ConflictTesting />} />
               </Routes>
             </SidebarLayout>
           </div>
