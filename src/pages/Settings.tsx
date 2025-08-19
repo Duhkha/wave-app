@@ -3,64 +3,64 @@ export default function Settings() {
     <div className="p-8">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-slate-800 mb-2">Settings</h1>
-          <p className="text-slate-600">Manage your account preferences and application settings</p>
+          <h1 className="text-3xl font-bold text-slate-800 dark:text-gray-100 mb-2">Settings</h1>
+          <p className="text-slate-600 dark:text-gray-300">Manage your account preferences and application settings</p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 mb-6">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-slate-200 dark:border-gray-700 p-6 mb-6">
               <div className="flex items-center mb-6">
                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
-                <h2 className="text-xl font-semibold text-slate-800">Account Settings</h2>
+                <h2 className="text-xl font-semibold text-slate-800 dark:text-gray-100">Account Settings</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">
+                    <label className="block text-sm font-medium text-slate-700 dark:text-gray-300 mb-2">
                       First Name
                     </label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-slate-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-slate-900 dark:text-gray-100 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                       defaultValue="John"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">
+                    <label className="block text-sm font-medium text-slate-700 dark:text-gray-300 mb-2">
                       Last Name
                     </label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-slate-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-slate-900 dark:text-gray-100 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                       defaultValue="Doe"
                     />
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">
+                  <label className="block text-sm font-medium text-slate-700 dark:text-gray-300 mb-2">
                     Email Address
                   </label>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-slate-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-slate-900 dark:text-gray-100 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                     defaultValue="john.doe@example.com"
                   />
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">
+                  <label className="block text-sm font-medium text-slate-700 dark:text-gray-300 mb-2">
                     Company
                   </label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-slate-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-slate-900 dark:text-gray-100 placeholder-slate-500 dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                     placeholder="Enter company name"
                   />
                 </div>
@@ -73,7 +73,7 @@ export default function Settings() {
               </div>
             </div>
             
-            <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-slate-200 dark:border-gray-700 p-6">
               <div className="flex items-center mb-6">
                 <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,14 +81,14 @@ export default function Settings() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
-                <h2 className="text-xl font-semibold text-slate-800">Preferences</h2>
+                <h2 className="text-xl font-semibold text-slate-800 dark:text-gray-100">Preferences</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="flex items-center justify-between py-3">
                   <div>
-                    <h3 className="font-medium text-slate-800">Email Notifications</h3>
-                    <p className="text-sm text-slate-600">Receive email updates about your account</p>
+                    <h3 className="font-medium text-slate-800 dark:text-gray-100">Email Notifications</h3>
+                    <p className="text-sm text-slate-600 dark:text-gray-300">Receive email updates about your account</p>
                   </div>
                   <label className="relative inline-flex items-center cursor-pointer">
                     <input type="checkbox" className="sr-only peer" defaultChecked />
@@ -98,8 +98,8 @@ export default function Settings() {
                 
                 <div className="flex items-center justify-between py-3">
                   <div>
-                    <h3 className="font-medium text-slate-800">Push Notifications</h3>
-                    <p className="text-sm text-slate-600">Get notified about important updates</p>
+                    <h3 className="font-medium text-slate-800 dark:text-gray-100">Push Notifications</h3>
+                    <p className="text-sm text-slate-600 dark:text-gray-300">Get notified about important updates</p>
                   </div>
                   <label className="relative inline-flex items-center cursor-pointer">
                     <input type="checkbox" className="sr-only peer" />
@@ -109,8 +109,8 @@ export default function Settings() {
                 
                 <div className="flex items-center justify-between py-3">
                   <div>
-                    <h3 className="font-medium text-slate-800">Dark Mode</h3>
-                    <p className="text-sm text-slate-600">Switch to dark theme</p>
+                    <h3 className="font-medium text-slate-800 dark:text-gray-100">Dark Mode</h3>
+                    <p className="text-sm text-slate-600 dark:text-gray-300">Switch to dark theme</p>
                   </div>
                   <label className="relative inline-flex items-center cursor-pointer">
                     <input type="checkbox" className="sr-only peer" />
@@ -122,8 +122,8 @@ export default function Settings() {
           </div>
           
           <div>
-            <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 mb-6">
-              <h3 className="font-semibold text-slate-800 mb-4">Profile Picture</h3>
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-slate-200 dark:border-gray-700 p-6 mb-6">
+              <h3 className="font-semibold text-slate-800 dark:text-gray-100 mb-4">Profile Picture</h3>
               <div className="text-center">
                 <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl font-bold">JD</span>

@@ -82,7 +82,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items = [] }) => {
       
       {/* Sidebar */}
       <div 
-        className={`fixed top-0 left-0 h-full bg-white border-r border-blue-100 z-50 transition-all duration-300 overflow-y-auto overflow-x-hidden ${
+        className={`fixed top-0 left-0 h-full bg-white dark:bg-gray-800 border-r border-blue-100 dark:border-gray-700 z-50 transition-all duration-300 overflow-y-auto overflow-x-hidden ${
           isMobile 
             ? `${isOpen ? 'translate-x-0' : '-translate-x-full'}`
             : isOpen 
@@ -96,16 +96,16 @@ const Sidebar: React.FC<SidebarProps> = ({ items = [] }) => {
         <nav className="pt-20">
           {/* First item is the menu toggle */}
           <div
-            className="flex items-center px-4 py-4 text-blue-900 cursor-pointer transition-colors hover:bg-blue-50 border-b border-blue-100"
+            className="flex items-center px-4 py-4 text-blue-900 dark:text-gray-100 cursor-pointer transition-colors hover:bg-blue-50 dark:hover:bg-gray-700 border-b border-blue-100 dark:border-gray-700"
             onClick={toggleSidebar}
           >
-            <div className="w-6 h-6 flex items-center justify-center text-blue-400 flex-shrink-0">
+            <div className="w-6 h-6 flex items-center justify-center text-blue-400 dark:text-gray-400 flex-shrink-0">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </div>
             <span 
-              className={`ml-4 font-medium text-blue-900 transition-opacity duration-300 whitespace-nowrap ${
+              className={`ml-4 font-medium text-blue-900 dark:text-gray-100 transition-opacity duration-300 whitespace-nowrap ${
                 isOpen ? 'opacity-100' : 'opacity-0'
               }`}
             >
@@ -119,13 +119,13 @@ const Sidebar: React.FC<SidebarProps> = ({ items = [] }) => {
               key={index}
               to={item.path}
               className={({ isActive }) =>
-                `flex items-center px-4 py-4 text-blue-900 transition-colors hover:bg-blue-50 border-b border-blue-100 ${
-                  isActive ? 'bg-blue-50' : ''
+                `flex items-center px-4 py-4 text-blue-900 dark:text-gray-100 transition-colors hover:bg-blue-50 dark:hover:bg-gray-700 border-b border-blue-100 dark:border-gray-700 ${
+                  isActive ? 'bg-blue-50 dark:bg-gray-700' : ''
                 }`
               }
               onClick={() => isMobile && closeSidebar()}
             >
-              <div className="w-6 h-6 flex items-center justify-center text-blue-400 flex-shrink-0">
+              <div className="w-6 h-6 flex items-center justify-center text-blue-400 dark:text-gray-400 flex-shrink-0">
                 {item.icon}
               </div>
               <span 

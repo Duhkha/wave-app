@@ -28,7 +28,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children }) => {
 
   return (
     <div 
-      className="transition-all duration-300 min-h-screen bg-slate-50"
+      className="transition-all duration-300 min-h-screen bg-slate-50 dark:bg-gray-900"
       style={{
         marginLeft: getMarginLeft(),
         paddingTop: "64px",
