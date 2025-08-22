@@ -260,12 +260,13 @@ export default function Offers() {
       name: "hero-blurb",
       title: "Supporting small business owners",
       description: "Wave exists to help our customers and teams reach their goals with confidence and ease.",
-      image: "https://s3-alpha-sig.figma.com/img/fb5a/5335/92db81feb6ed8ee7edf71e0be14716e5?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JSkp1Cjjsxkx5qjWLZQTP6FdgvB2pqsKMZ8OrJu6Nv~9tSoltubvr9GY4mz2q1GpYaXIFhf6J2U8uvh6FT8~y~kBbP5uUzr8gSgXGG1PGbToIt1LMw7AKOx6HOU~uxjV9pehtTtHZeFKaZT9GBaTp2Rnuo0Gm74LFx6J8NAmamBfP4tjiSHOBB6~5vW2wa8ki1PcNC6dI7XF80Q61VcVYd9L9LVoWCsFgcpBCgBxwYsIy4pjPKgw1i0Ml7i96yF81eGcnHhAuRkW25OTqsE6uTqYFnD6qkPtUTc~M7RZS7VgyHX~9SmlzwZDFWS9SVqkbU4TuI9OHY05yR6efKxMmQ__",
+      imageUrl: "https://s3-alpha-sig.figma.com/img/fb5a/5335/92db81feb6ed8ee7edf71e0be14716e5?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JSkp1Cjjsxkx5qjWLZQTP6FdgvB2pqsKMZ8OrJu6Nv~9tSoltubvr9GY4mz2q1GpYaXIFhf6J2U8uvh6FT8~y~kBbP5uUzr8gSgXGG1PGbToIt1LMw7AKOx6HOU~uxjV9pehtTtHZeFKaZT9GBaTp2Rnuo0Gm74LFx6J8NAmamBfP4tjiSHOBB6~5vW2wa8ki1PcNC6dI7XF80Q61VcVYd9L9LVoWCsFgcpBCgBxwYsIy4pjPKgw1i0Ml7i96yF81eGcnHhAuRkW25OTqsE6uTqYFnD6qkPtUTc~M7RZS7VgyHX~9SmlzwZDFWS9SVqkbU4TuI9OHY05yR6efKxMmQ__",
       styleObject: "Wave",
       analytics: {
         top_section_id: "hero-blurb-section",
         tracking_name: "hero-blurb-tracking"
       },
+      imagePosition: "right",
       buttons: [
         {
           analyticsId: "hero-get-started",
@@ -661,7 +662,88 @@ export default function Offers() {
           trackingName: "article",
           heroImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
           styleObject: "light",
-          markdownContent: "So many small business owners dread tax season. Not only does it mean extra work on your plate, the fear of getting audited if you make a mistake is really stressful.\nBut there's a different way to think about tax season. All the extra work you're doing at this time of year can actually teach you a lot about your business, and help you plan better for the year to come.\\n\\nWe built this guide to help you with three key things that will reduce your stress and give you insight into your business:\\n\\n- To help you prepare your books properly for your accountant so that they can help you save as much money as possible.\\n- To demystify audits so you can prevent them, handle them when they happen, and stop fearing them.\\n- To teach you how to stay on top of your books year-round, so you won't procrastinate and panic at tax time anymore.\\n\\n![Tax Season Guide](https://cdn.prod.website-files.com/6253f6e60f27498e7d4a1e46/6384e5e3f51ffa38ac7c279b_Chapter_1__Understanding_common_tax_deductions_that%20save_you_money%202.jpg)\\n\\n# Chapter 1: Understanding common tax deductions that save you money\\n\\nTax season can be stressful—especially for small businesses. But it's also a huge opportunity for entrepreneurs to dig deep into their business's finances and performance and set themselves up for success in the coming year.\\n\\nBusiness tax deductions are a big part of that because they can save valuable funds you can use to grow your business. According to the United States Internal Revenue Service (IRS), business tax deductions for 2018 [totaled over $1.2 trillion](https://www.irs.gov/pub/irs-soi/soi-a-insp-id2104.pdf). That's one big opportunity.\\n\\n## How do tax deductions work?\\n\\nIn a nutshell, tax deductions (also called write-offs) are one way taxpayers can lower their tax liability or the amount of tax they pay. When you prepare and file your taxes, you claim the deductions your business qualifies for on your annual tax return.\\n\\nDeductions come in all varieties, but they have one thing in common—they count against and reduce your total taxable income. That's different from a tax credit, which counts dollar-for-dollar against your tax liability for the year.\\n\\nFor example, if your business income for last year was $100,000 and you claim $20,000 in write-offs, your taxable income is $80,000. Your savings from those deductions are the total deduction amount ($20,000) multiplied by the tax rate for your income bracket. If your rate is 25%, for example, those deductions would save you $5,000 on your taxes for that year.\\n\\n## Deductions for self-employed workers\\n\\nIndependent contractors, freelancers, and sole proprietors are all considered self-employed workers in the eyes of the IRS.\\n\\n### 1. Home office deduction\\n\\nThe [home office tax deduction](https://www.waveapps.com/blog/tax-deductions-home-office) is probably one of the most well-known and least understood deductions available to self-employed people. In a nutshell, this deduction is aimed at giving you credit for expenses associated with maintaining an office in your home.\\n\\nThe costs of maintaining a workspace in your home can really add up, so if you're eligible, the home office deduction is well-worth the time spent calculating it. You can deduct a percentage of home office expenses relating to:\\n\\n- Rent or mortgage\\n- Renters' or homeowners' insurance\\n- Property taxes\\n- Internet and utilities\\n- Leasehold Improvements\\n\\nNot to mention, the IRS instituted a standard rate for home office deductions, creating a much faster and simpler method for calculating your deduction amount. The rate is $5 per square foot of office space, up to a maximum deduction for 300 square feet or $1,500.\\n\\nYour home office space only needs to meet two main requirements to qualify for the deduction:\\n\\n- The space has to be used to conduct business regularly and exclusively, meaning you can't claim an entire room if it actually doubles as the guest room.\\n- Your home office needs to be your primary place of business. If you head to the coffee shop from time to time, that's okay."
+          markdownContent: `
+So many small business owners dread tax season. Not only does it mean extra work on your plate, the fear of getting audited if you make a mistake is really stressful. 
+
+But there’s a different way to think about tax season. All the extra work you’re doing at this time of year can actually teach you a lot about your business, and help you plan better for the year to come.
+
+We built this guide to help you with three key things that will reduce your stress and give you insight into your business:
+
+- To help you prepare your books properly for your accountant so that they can help you save as much money as possible.
+- To demystify audits so you can prevent them, handle them when they happen, and stop fearing them.
+- To teach you how to stay on top of your books year-round, so you won’t procrastinate and panic at tax time anymore.
+
+![](https://cdn.prod.website-files.com/6253f6e60f27498e7d4a1e46/6384e5e3f51ffa38ac7c279b_Chapter_1__Understanding_common_tax_deductions_that%20save_you_money%202.jpg )
+
+# Chapter 1: Understanding common tax deductions that save you money
+
+Tax season can be stressful—especially for small businesses. But it’s also a huge opportunity for entrepreneurs to dig deep into their business’s finances and performance and set themselves up for success in the coming year.
+
+Business tax deductions are a big part of that because they can save valuable funds you can use to grow your business. According to the United States Internal Revenue Service (IRS), business tax deductions for 2018 [totaled over $1.2 trillion](https://www.irs.gov/pub/irs-soi/soi-a-insp-id2104.pdf). That’s one big opportunity.
+
+
+[![Source: IRS](https://cdn.prod.website-files.com/6253f6e60f27498e7d4a1e46/63330eeed3aa550371a70a22_Untitled-design-1.jpeg)](https://www.irs.gov/pub/irs-soi/soi-a-insp-id2104.pdf)
+
+Understanding the tax deductions your business is eligible for goes a long way in ensuring you save every dollar possible. Even if you hand off tax preparation to a professional, it’s important to know your deductions so you can prepare and keep the appropriate records to claim them.
+
+In this chapter, we’ll run through:
+
+   - How tax deductions work
+   - Deductions all self-employed workers and small business owners should know
+   - Common mistakes to avoid when you deduct business expenses
+
+If you need a quick tune-up on common tax terms to know before diving in, check out our glossary of tax terms.
+
+And we’re off!
+
+
+## How do tax deductions work?
+
+In a nutshell, tax deductions (also called write-offs) are one way taxpayers can lower their tax liability or the amount of tax they pay. When you prepare and file your taxes, you claim the deductions your business qualifies for on your annual tax return.
+
+Deductions come in all varieties, but they have one thing in common—they count against and reduce your total taxable income. That’s different from a tax credit, which counts dollar-for-dollar against your tax liability for the year.
+
+For example, if your business income for last year was $100,000 and you claim $20,000 in write-offs, your taxable income is $80,000. Your savings from those deductions are the total deduction amount ($20,000) multiplied by the tax rate for your income bracket. If your rate is 25%, for example, those deductions would save you $5,000 on your taxes for that year.
+
+## Deductions for self-employed workers
+
+Independent contractors, freelancers, and sole proprietors are all considered self-employed workers in the eyes of the IRS.
+
+What does that mean? At the most basic level, being self-employed means you don’t report to someone above you. From a tax perspective, self-employed workers typically pay quarterly estimated taxes that cover income tax and the additional self-employment tax.
+
+For an individual, those taxes can add up in a hurry. That’s why it’s important to understand the six deductions we’ll cover next—so you can be ready to claim them and lessen the burden once tax season rolls around.
+
+### 1. Home office deduction
+
+The [home office tax deduction](https://www.waveapps.com/blog/tax-deductions-home-office) is probably one of the most well-known and least understood deductions available to self-employed people. In a nutshell, this deduction is aimed at giving you credit for expenses associated with maintaining an office in your home.
+
+It can be a substantial annual deduction, so it’s a wonder why more self-employed workers don’t claim it.
+
+The costs of maintaining a workspace in your home can really add up, so if you’re eligible, the home office deduction is well-worth the time spent calculating it. You can deduct a percentage of home office expenses relating to:
+
+   - Rent or mortgage
+   - Renters’ or homeowners’ insurance
+   - Property taxes
+   - Internet and utilities
+   - Leasehold Improvements
+
+Not to mention, the IRS instituted a standard rate for home office deductions, creating a much faster and simpler method for calculating your deduction amount. The rate is $5 per square foot of office space, up to a maximum deduction for 300 square feet or $1,500.
+
+Your home office space only needs to meet two main requirements to qualify for the deduction:
+
+   - The space has to be used to conduct business regularly and exclusively, meaning you can’t claim an entire room if it actually doubles as the guest room.
+   - Your home office needs to be your primary place of business. If you head to the coffee shop from time to time, that’s okay.
+
+If you rent an office space outside your home, see the Rent and utilities section under small business deductions.
+
+ [Wave](https://youtu.be/Gnt--fjvbuY?si=py2vaaJYBMUvWfnf)
+
+
+ >*Wave’s receipts feature is a paid product that requires a subscription. Pricing information can be found [here](https://www.waveapps.com/receipts).
+
+ >**We use Plaid to facilitate bank connections. Not all financial institutions are supported so we can’t guarantee that you will be able to connect an account. Check Plaid's troubleshooting guide for more information or learn more about [how bank connections work at Wave](https://support.waveapps.com/hc/en-us/articles/115005541303-Understanding-bank-connections).
+
+    `,
         },
         {
           title: "2025 tax checklist: Get ready for tax season",
