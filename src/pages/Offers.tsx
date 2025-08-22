@@ -11,49 +11,49 @@ export default function Offers() {
         {
           author: "Sarah Johnson",
           text: "Wave has completely transformed how I manage my small business finances. The interface is intuitive and the features are exactly what I need.",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Owner, Johnson Consulting",
           featured: true
         },
         {
           author: "Michael Chen",
           text: "As a freelancer, I was spending hours on bookkeeping. Wave made it simple and automated. I can focus on my clients now.",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Freelance Designer",
           featured: true
         },
         {
           author: "Emily Rodriguez",
           text: "The invoicing feature alone has saved me so much time. My clients love the professional look and the automatic payment reminders.",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Marketing Consultant",
           featured: false
         },
         {
           author: "David Thompson",
           text: "I've tried many accounting software solutions, but Wave is the only one that doesn't overwhelm me with unnecessary features.",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Restaurant Owner",
           featured: false
         },
         {
           author: "Lisa Park",
           text: "The expense tracking is fantastic. I can snap a photo of receipts and everything is organized automatically. Game changer!",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Event Planner",
           featured: false
         },
         {
           author: "James Wilson",
           text: "Wave's payroll feature has streamlined our entire HR process. Easy to use and incredibly reliable.",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Small Business Owner",
           featured: false
         },
         {
           author: "Amanda Foster",
           text: "The customer support team is amazing. They helped me migrate from our old system without any data loss.",
-          authorImage: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+          authorImage: "https://thispersondoesnotexist.com/",
           authorPosition: "Retail Store Manager",
           featured: false
         }
