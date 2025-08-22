@@ -266,7 +266,7 @@ export default function Offers() {
         top_section_id: "hero-blurb-section",
         tracking_name: "hero-blurb-tracking"
       },
-      imagePosition: "right",
+      imagePosition: "left",
       buttons: [
         {
           analyticsId: "hero-get-started",
@@ -478,8 +478,8 @@ export default function Offers() {
       description: "Explore our vibrant collection",
       cards: [
         {
-          title: "Card 1",
-          intro: "This is the first card",
+          title: "14 tips to manage stress as a small business owner",
+          intro: "Promotion",
           image: "https://s3-alpha-sig.figma.com/img/861e/d481/94949968dcd253ce961112968bc6b5ea?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hr4UdlWOwgLb7Vjj49E6SI~ohWwORuMR6BIzeW5IZjP-9-qjx-94GMc59g48IqPt8Gz4O46yL~eGCOFXkPmSpIGpLBkY35eMIz9nE~pBebZDVzLGLodAV1OyalzpE9HjA28LphdXmIqIICQUWgZhzu~gpn-UB0v4L4XSgRVz2GkVeBOnBqwwvkqp03Mtl6hmVA4vjDnBKVJQ0AfD1YF2BF627gIxw5YDhGGj82j7uTjXJiUb0OD8k1PCnFKb95aLpgFZVaI600YjOLVP-jtx3oHMrS2w6CK61~9lCmX3jLc8F7xRpzL7NgnJ4XosijUGyuNMCfs6tDAPEqtBcLPWlQ__",
           link: "https://waveapps.com",
           variant: "blue",
@@ -489,8 +489,8 @@ export default function Offers() {
           countryFilters: []
         },
         {
-          title: "Card 2",
-          intro: "This is the second card",
+          title: "How to keep track of business expenses: 4 easy steps",
+          intro: "Promotion",
           image: "https://s3-alpha-sig.figma.com/img/861e/d481/94949968dcd253ce961112968bc6b5ea?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hr4UdlWOwgLb7Vjj49E6SI~ohWwORuMR6BIzeW5IZjP-9-qjx-94GMc59g48IqPt8Gz4O46yL~eGCOFXkPmSpIGpLBkY35eMIz9nE~pBebZDVzLGLodAV1OyalzpE9HjA28LphdXmIqIICQUWgZhzu~gpn-UB0v4L4XSgRVz2GkVeBOnBqwwvkqp03Mtl6hmVA4vjDnBKVJQ0AfD1YF2BF627gIxw5YDhGGj82j7uTjXJiUb0OD8k1PCnFKb95aLpgFZVaI600YjOLVP-jtx3oHMrS2w6CK61~9lCmX3jLc8F7xRpzL7NgnJ4XosijUGyuNMCfs6tDAPEqtBcLPWlQ__",
           link: "https://waveapps.com",
           variant: "green",
@@ -500,8 +500,8 @@ export default function Offers() {
           countryFilters: []
         },
         {
-          title: "Card 3",
-          intro: "This is the third card",
+          title: "Step-by-step guide to master your money management skills",
+          intro: "Promotion",
           image: "https://s3-alpha-sig.figma.com/img/861e/d481/94949968dcd253ce961112968bc6b5ea?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hr4UdlWOwgLb7Vjj49E6SI~ohWwORuMR6BIzeW5IZjP-9-qjx-94GMc59g48IqPt8Gz4O46yL~eGCOFXkPmSpIGpLBkY35eMIz9nE~pBebZDVzLGLodAV1OyalzpE9HjA28LphdXmIqIICQUWgZhzu~gpn-UB0v4L4XSgRVz2GkVeBOnBqwwvkqp03Mtl6hmVA4vjDnBKVJQ0AfD1YF2BF627gIxw5YDhGGj82j7uTjXJiUb0OD8k1PCnFKb95aLpgFZVaI600YjOLVP-jtx3oHMrS2w6CK61~9lCmX3jLc8F7xRpzL7NgnJ4XosijUGyuNMCfs6tDAPEqtBcLPWlQ__",
           link: "https://waveapps.com",
           variant: "purple",
@@ -511,8 +511,8 @@ export default function Offers() {
           countryFilters: []
         },
         {
-          title: "Card 4",
-          intro: "This is the fourth card",
+          title: "General ledger: What it is and how it works explained",
+          intro: "Promotion",
           image: "https://s3-alpha-sig.figma.com/img/861e/d481/94949968dcd253ce961112968bc6b5ea?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hr4UdlWOwgLb7Vjj49E6SI~ohWwORuMR6BIzeW5IZjP-9-qjx-94GMc59g48IqPt8Gz4O46yL~eGCOFXkPmSpIGpLBkY35eMIz9nE~pBebZDVzLGLodAV1OyalzpE9HjA28LphdXmIqIICQUWgZhzu~gpn-UB0v4L4XSgRVz2GkVeBOnBqwwvkqp03Mtl6hmVA4vjDnBKVJQ0AfD1YF2BF627gIxw5YDhGGj82j7uTjXJiUb0OD8k1PCnFKb95aLpgFZVaI600YjOLVP-jtx3oHMrS2w6CK61~9lCmX3jLc8F7xRpzL7NgnJ4XosijUGyuNMCfs6tDAPEqtBcLPWlQ__",
           link: "https://waveapps.com",
           variant: "orange",
@@ -522,8 +522,8 @@ export default function Offers() {
           countryFilters: []
         },
         {
-          title: "Card 5",
-          intro: "This is the fifth card",
+          title: "Exclusive offer: Get 50% off Wave Pro Plan",
+          intro: "Promotion",
           image: "https://s3-alpha-sig.figma.com/img/861e/d481/94949968dcd253ce961112968bc6b5ea?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hr4UdlWOwgLb7Vjj49E6SI~ohWwORuMR6BIzeW5IZjP-9-qjx-94GMc59g48IqPt8Gz4O46yL~eGCOFXkPmSpIGpLBkY35eMIz9nE~pBebZDVzLGLodAV1OyalzpE9HjA28LphdXmIqIICQUWgZhzu~gpn-UB0v4L4XSgRVz2GkVeBOnBqwwvkqp03Mtl6hmVA4vjDnBKVJQ0AfD1YF2BF627gIxw5YDhGGj82j7uTjXJiUb0OD8k1PCnFKb95aLpgFZVaI600YjOLVP-jtx3oHMrS2w6CK61~9lCmX3jLc8F7xRpzL7NgnJ4XosijUGyuNMCfs6tDAPEqtBcLPWlQ__",
           link: "https://waveapps.com",
           variant: "pink",
@@ -652,8 +652,8 @@ export default function Offers() {
       articles: [
         {
           title: "A Complete Guide to Small Business Tax Season",
-          subtitle: "By Wave (Tax)",
-          intro: "Take the stress out of tax season with this guide to confidently managing your books, audit-proofing your business, and getting your taxes done right.",
+          subtitle: "Take the stress out of tax season with this guide to confidently managing your books, audit-proofing your business, and getting your taxes done right.",
+          intro: "By Wave (Tax)",
           slug: "complete-guide-small-business-tax-season",
           publishedAt: "January 1, 2025",
           filterKeys: ["home", "tax"],
@@ -747,8 +747,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "2025 tax checklist: Get ready for tax season",
-          subtitle: "By Wave (Tax)",
-          intro: "As we kick off the new year, it's time to get your business ready for tax filing season. Follow these steps to get your books in shape.",
+          intro: "By Wave (Tax)",
+          subtitle: "As we kick off the new year, it's time to get your business ready for tax filing season. Follow these steps to get your books in shape.",
           slug: "2025-tax-checklist-get-ready-for-tax-season",
           publishedAt: "February 1, 2024",
           filterKeys: ["home", "tax"],
@@ -761,8 +761,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "How to file small business taxes in 4 easy steps",
-          subtitle: "By Wave (Tax)",
-          intro: "Although tax season is no walk in the park, it doesn't have to be the bane of your business's existence. Here's a sneak peek at the four things you'll need to do when filing small business taxes.",
+          intro: "By Wave (Tax)",
+          subtitle: "Although tax season is no walk in the park, it doesn't have to be the bane of your business's existence. Here's a sneak peek at the four things you'll need to do when filing small business taxes.",
           slug: "how-to-file-small-business-taxes-in-4-easy-steps",
           publishedAt: "October 6, 2023",
           filterKeys: ["home", "tax"],
@@ -775,8 +775,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "Separate business and personal finances to simplify tax season",
-          subtitle: "By Wave (Banking)",
-          intro: "Separating your business and personal accounts can unlock a whole new world of tax benefits for your small business.",
+          intro: "By Wave (Banking)",
+          subtitle: "Separating your business and personal accounts can unlock a whole new world of tax benefits for your small business.",
           slug: "separate-business-and-personal-finances-to-simplify-tax-season",
           publishedAt: "February 1, 2024",
           filterKeys: ["home", "banking"],
@@ -789,8 +789,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "7 ways a line of credit can benefit small businesses",
-          subtitle: "By Wave (Lending)",
-          intro: "When it comes to business financing, a business line of credit is a popular choice among small business owners. Here's 7 ways a line of credit can benefit your business and how to apply.",
+          intro: "By Wave (Lending)",
+          subtitle: "When it comes to business financing, a business line of credit is a popular choice among small business owners. Here's 7 ways a line of credit can benefit your business and how to apply.",
           slug: "7-ways-a-line-of-credit-can-benefit-small-businesses",
           publishedAt: "February 1, 2024",
           filterKeys: ["home", "lending"],
@@ -803,8 +803,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "5 unexpected times to get a business loan",
-          subtitle: "By Wave (Lending)",
-          intro: "Most business owners will need capital at some point to either get operations off the ground, grow, or manage cash flow. This checklist will help you prepare for tax season and ensure you're taking advantage of all available deductions.",
+          intro: "By Wave (Lending)",
+          subtitle: "Most business owners will need capital at some point to either get operations off the ground, grow, or manage cash flow. This checklist will help you prepare for tax season and ensure you're taking advantage of all available deductions.",
           slug: "5-unexpected-times-to-get-a-business-loan",
           publishedAt: "September 1, 2023",
           filterKeys: ["home", "lending"],
@@ -817,8 +817,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "How to get a small business loan",
-          subtitle: "By Wave (Lending)",
-          intro: "This article covers everything you need to know about small business loans. The types available, ...",
+          intro: "By Wave (Lending)",
+          subtitle: "This article covers everything you need to know about small business loans. The types available, ...",
           slug: "how-to-get-a-small-business-loan",
           publishedAt: "February 1, 2024",
           filterKeys: ["home", "lending"],
@@ -831,8 +831,8 @@ If you rent an office space outside your home, see the Rent and utilities sectio
         },
         {
           title: "Do small businesses need insurance?",
-          subtitle: "By Wave (Business Insurance)",
-          intro: "Insurance is a necessity for most small businesses, but figuring out how much—and what type—you need can be tricky.",
+          intro: "By Wave (Business Insurance)",
+          subtitle: "Insurance is a necessity for most small businesses, but figuring out how much—and what type—you need can be tricky.",
           slug: "do-small-businesses-need-insurance",
           publishedAt: "June 21, 2023",
           filterKeys: ["home", "insurance"],
@@ -856,7 +856,7 @@ If you rent an office space outside your home, see the Rent and utilities sectio
        props: {
       logo: "https://wp.logos-download.com/wp-content/uploads/2023/02/BlueVine_Logo.png?dl",
       partner: "Bluevine",
-      styleObject: "Wave",
+      styleObject: "Bluewine",
       boxOneIntro: "1.5% interest on checking balance for eligible customers",
       boxOneImage: "https://s3-alpha-sig.figma.com/img/b657/7b21/a5f0e995f1f4231c268db3dbd870c035?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Yj3euDvR2MQTytQ7eyHZR1OjhZeW9bs01PRPfd11EpI74qYap1ryWpJ1t16cxnQhKHRl92dV9m6EB0WFsAjTYilhMwt8fJ-fCYoWuWvrREZZvIRJwTw3OZgHoQ1uuP4dXeQXy6ZTKm0Oi5JLq7WhM5ZrWeButYYBDvJJvrZzWR2IrUOaoHh9ITDxerYKnN9TEtSWetnDwZdI305Cm5eGGWs4poyCct77DcdfdSrcg1OhLTtHJ4KCzolE64Wnf1ptqADjMOYnK77X7NHfhmY8th8j0lAR6mlb5DSYGuxVpUzwYaAs84WAzUaVMWXx7kaxb9eQemL9X6mgfiuBiuz47w__",
       boxTwoIntro: "Bill pay options that save you time",
@@ -1018,7 +1018,7 @@ If you rent an office space outside your home, see the Rent and utilities sectio
       type: "calculator",
        props: {
       illustrationSrc: "https://s3-alpha-sig.figma.com/img/ba87/de9d/ee3edc27a45cc7d21097b9aada94f518?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZGrLCTS-68QxKzhg83eejv2G9S3l~b7723bpsuyvBuXXKzgJmeIEolDEJi~gjd6S4K-1VAI7weiBpHANJwsoogjhp7~RVo7uV~YsHFbxT8FtYuCAgD4GyQhBylgA9gvyebnkjyTZvAljr~p0Uda6C4ecOd1JH1ZDIVOPfMpkAo~8rRhO2IEg5fDsMDLVQAVrjFNupZe7tU01Z3KLDDTBS1ZePhDYoQWgCZB0tqXogZKWk6LRxMfoAgHUGA3uVS3qxft9C37tIG3A4lc2~UAYT5JHl35PM0ovJkRFmw0wlAeQBFTt665oBNIdwEQ~D~FrCBL22MKxmqX28IUbBKfMhg__",
-      title: "Business Loan Calculator",
+      title: "Loan Calculator",
       partnerName: "Wave Financial",
       initialValues: {
         loanAmount: 15000,
@@ -1035,14 +1035,132 @@ If you rent an office space outside your home, see the Rent and utilities sectio
     {
       type: "htmlcssrenderer",
        props: {
-        html: "<div class='epic-container'><div class='floating-cards'><div class='card card-1'><div class='card-icon'>🚀</div><h3>Innovation</h3><p>Pushing boundaries with cutting-edge technology</p></div><div class='card card-2'><div class='card-icon'>💎</div><h3>Excellence</h3><p>Delivering premium quality in everything we do</p></div><div class='card card-3'><div class='card-icon'>⚡</div><h3>Speed</h3><p>Lightning-fast performance that exceeds expectations</p></div></div><div class='background-animation'><div class='floating-shape shape-1'></div><div class='floating-shape shape-2'></div><div class='floating-shape shape-3'></div><div class='floating-shape shape-4'></div></div></div>",
-        css: "@keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } } @keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } } @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.7; } 50% { transform: scale(1.1); opacity: 1; } } .epic-container { position: relative; min-height: 400px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; overflow: hidden; padding: 40px 20px; } .floating-cards { display: flex; justify-content: space-around; align-items: center; gap: 20px; position: relative; z-index: 2; flex-wrap: wrap; } .card { background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 16px; padding: 30px 20px; text-align: center; color: white; min-width: 200px; animation: float 3s ease-in-out infinite; transition: transform 0.3s ease, box-shadow 0.3s ease; } .card:hover { transform: translateY(-10px) scale(1.05); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); } .card-1 { animation-delay: 0s; } .card-2 { animation-delay: 0.5s; } .card-3 { animation-delay: 1s; } .card-icon { font-size: 3rem; margin-bottom: 15px; animation: pulse 2s ease-in-out infinite; } .card h3 { margin: 0 0 10px 0; font-size: 1.5rem; font-weight: bold; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); } .card p { margin: 0; opacity: 0.9; line-height: 1.4; } .background-animation { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; } .floating-shape { position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.1); animation: float 4s ease-in-out infinite; } .shape-1 { width: 80px; height: 80px; top: 10%; left: 10%; animation-delay: 0s; } .shape-2 { width: 120px; height: 120px; top: 60%; right: 15%; animation-delay: 1s; animation-name: rotate; animation-duration: 8s; background: rgba(255, 255, 255, 0.05); } .shape-3 { width: 60px; height: 60px; bottom: 20%; left: 20%; animation-delay: 2s; } .shape-4 { width: 100px; height: 100px; top: 30%; right: 30%; animation-delay: 3s; background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05)); } @media (max-width: 768px) { .floating-cards { flex-direction: column; } .card { min-width: 250px; } }",
+        html: `
+    <div class="survey-container">
+      <h2>How happy are you with our service? 🤩</h2>
+      <p>Please select an emoji that represents your feeling.</p>
+      <div class="emoji-options">
+        <button class="emoji-btn">😄</button>
+        <button class="emoji-btn">😊</button>
+        <button class="emoji-btn">😐</button>
+        <button class="emoji-btn">😞</button>
+      </div>
+      <p class="feedback-message"></p>
+    </div>
+    <script>
+      const buttons = document.querySelectorAll('.emoji-btn');
+      const message = document.querySelector('.feedback-message');
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          message.textContent = 'Thank you for your feedback!';
+          buttons.forEach(btn => {
+            btn.style.opacity = '0.5';
+            btn.style.cursor = 'default';
+            btn.disabled = true;
+          });
+          button.style.opacity = '1';
+          button.style.border = '2px solid #007bff';
+        });
+      });
+    </script>
+  `,
+  css: `
+    .survey-container {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f4f1;
+      border-radius: 24px;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #666;
+      margin-bottom: 25px;
+    }
+    .emoji-options {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .emoji-btn {
+      background: none;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      font-size: 2.5rem;
+      padding: 10px;
+      cursor: pointer;
+      transition: transform 0.2s, border 0.2s;
+    }
+    .emoji-btn:hover {
+      transform: scale(1.15);
+    }
+    .feedback-message {
+        color: #28a745;
+        font-weight: bold;
+        height: 20px;
+    }
+  `,
         trackingName: "html-renderer",
       analytics: {
         top_section_id: "html-section",
         tracking_name: "html-renderer"
       }
        }
+    },
+    {
+      type: "herowithimage",
+      props: {
+        name: "Wave Feature",
+  title: "Seal the deal with Wave's new deposits feature",
+  description:
+    "You can now request deposits through your Wave estimates if you're a Pro Plan or online payments user. And trust us, it's a whole lot easier than the hacks you've been using.",
+  image: "https://s3-alpha-sig.figma.com/img/b7e6/8dd2/211abc4bc7d92df7d889e986b16115fb?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Wv~a4hh6X9Trxd4p6Pahiq0B63~cGZSc6p90FxcLNMlUfFOwoVVMImB9eKKhcel2YHu5xAd4oVsDJgJDqQCYpG3GgVHl-T2ivzar-ZaQ3hFclGXmhn1x0aRVWyPRRG9MaGG~BILd-SCc8-sbHuE5k~du9vhR78ybpoVtgbx-5~L8rpAgcMrL0N9~9uv9k8E6ED~izNfpzJBzo08ozIqYvyCAESnoEVoVqUgxWXYunXOFh16ZYoKzW2tPerevlUmq4K83cTS4M2UCSvRaiAzaUSDEIJuek5l28yqysc5EnIYlV~iV71ZJdenzmF18IwCyZuePPlQKgTiMIDA7NkUDyQ__",
+  imagePosition: "left",
+  buttons: [
+    {
+      analyticsId: "hero-learn-more",
+      text: "Get Started now",
+      href: "https://www.waveapps.com/blog/seal-the-deal-with-waves-new-deposits-feature",
+    },
+    {
+      analyticsId: "hero-learn-more",
+      text: "Learn more",
+      href: "https://www.waveapps.com/blog/seal-the-deal-with-waves-new-deposits-feature",
+      variant: "secondary",
+    },
+  ],
+  topSectionId: "hero-blurb-default",
+  sectionId: "title",
+  trackingName: "hero-blurb",
+      }
+    },{
+      type: "cta",
+      props: {
+        name: "Call to Action",
+        title: "Ready to Get Started?",
+        description: "Join thousands of users who are already using our platform to streamline their workflow and boost productivity.",
+        buttons: [
+          {
+            analyticsId: "cta-primary",
+            text: "Start Free Trial",
+            href: "#",
+            variant: "primary",
+          },
+          {
+            analyticsId: "cta-secondary", 
+            text: "Learn More",
+            href: "#",
+            variant: "secondary",
+          },
+        ],
+        topSectionId: "cta-section",
+        sectionId: "cta-title",
+        trackingName: "cta-test",
+            }
     }
   ]
 
