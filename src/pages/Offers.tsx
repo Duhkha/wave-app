@@ -854,7 +854,7 @@ If you rent an office space outside your home, see the Rent and utilities sectio
     {
       type: "partnershipspotlight",
        props: {
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcgvM4IcZlVa6pm_38dkT8k6E9hAXTaf632w&s",
+      logo: "https://wp.logos-download.com/wp-content/uploads/2023/02/BlueVine_Logo.png?dl",
       partner: "Bluevine",
       styleObject: "Wave",
       boxOneIntro: "1.5% interest on checking balance for eligible customers",
