@@ -22,6 +22,15 @@ const TopBar: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // Default to US country if not set in the URL
+    if (!searchParams.has('country')) {
+      const newSearchParams = new URLSearchParams(searchParams);
+      newSearchParams.set('country', 'US');
+      setSearchParams(newSearchParams, { replace: true });
+    }
+  }, [searchParams, setSearchParams]);
+
   const countries = [
     { code: "US", name: "United States" },
     { code: "CA", name: "Canada" },
@@ -36,11 +45,9 @@ const TopBar: React.FC = () => {
   };
 
   const handleCountryChange = (countryCode: string) => {
-    // Update query parameters
-    const newSearchParams = new URLSearchParams(searchParams);
+    const newSearchParams = new URLSearchParams(window.location.search);
     newSearchParams.set('country', countryCode);
-    setSearchParams(newSearchParams);
-    setIsDropdownOpen(false);
+    window.location.search = newSearchParams.toString();
   };
 
   // Close dropdown when clicking outside

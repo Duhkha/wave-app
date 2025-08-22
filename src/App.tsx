@@ -9,6 +9,7 @@ import About from './pages/About'
 import Dashboard from './pages/Dashboard'
 import Settings from './pages/Settings'
 import ConflictTesting from './pages/ConflictTesting'
+import Offers from './pages/Offers'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/settings" element={<Settings />} />
                 <Route path="/conflict-testing" element={<ConflictTesting />} />
+                <Route path="/offers" element={<Offers />} />
               </Routes>
             </SidebarLayout>
           </div>
