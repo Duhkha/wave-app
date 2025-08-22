@@ -130,13 +130,15 @@ export default function Offers() {
           type: "optional",
           imageSrc: "https://s3-alpha-sig.figma.com/img/fe0d/fafe/8ebc4b57448d5612c59fe2a109d0a307?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XIWcBHKkhaQIt~WaWhnahstEtZIaSk1ZNUdv~k8xUwZ3IOq77vItFTIpgvDWGDQVg2Bvuj6hG7aTNWfNjxfotBmM7HTJH957qG9JGCp7p70BrXUBK603Xea1~BS468QzoVLZkssDYEVYL9SJJNMZN4KMgMzfrLZKf5hDtj3dDS6VJ6pNDrA-YG1UZ6I-7QMLS2tWuzClFc1jfWxMC6uTJhoroEn5fQvgtmCUPUOS1wXJAQMuHMNbJNuYdnNNwM2NQsRYb8OID0DEAwVhdT2CbD999cXNKjTzdCwVXY~O4HqWqIvvgVx-cyu44Iw8WqYGliYZmbyWaEy56DDZ8bv-iw__",
           description: "Easily track and report your business trips.",
-          style_object: "Wave"
+          style_object: "Wave",
+          shouldRenderOnMobile: false
         },
         {
           type: "optional",
           imageSrc: "https://s3-alpha-sig.figma.com/img/fb5a/5335/92db81feb6ed8ee7edf71e0be14716e5?Expires=1756684800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JSkp1Cjjsxkx5qjWLZQTP6FdgvB2pqsKMZ8OrJu6Nv~9tSoltubvr9GY4mz2q1GpYaXIFhf6J2U8uvh6FT8~y~kBbP5uUzr8gSgXGG1PGbToIt1LMw7AKOx6HOU~uxjV9pehtTtHZeFKaZT9GBaTp2Rnuo0Gm74LFx6J8NAmamBfP4tjiSHOBB6~5vW2wa8ki1PcNC6dI7XF80Q61VcVYd9L9LVoWCsFgcpBCgBxwYsIy4pjPKgw1i0Ml7i96yF81eGcnHhAuRkW25OTqsE6uTqYFnD6qkPtUTc~M7RZS7VgyHX~9SmlzwZDFWS9SVqkbU4TuI9OHY05yR6efKxMmQ__",
           description: "Get access to capital for building, growing and thriving.",
-          style_object: "Wave"
+          style_object: "Wave",
+          shouldRenderOnMobile: false
         },
         {
           type: "main",
@@ -963,6 +965,14 @@ export default function Offers() {
   ]
 
   return (
-    <LayoutRenderer config={layoutConfig} />
+    <div style={{ 
+      backgroundColor: 'white',
+      minHeight: '100vh',
+      padding: '0 0 40px 0',
+      width: '100%',
+      boxSizing: 'border-box'
+    }}>
+      <LayoutRenderer config={layoutConfig} />
+    </div>
   )
 }
